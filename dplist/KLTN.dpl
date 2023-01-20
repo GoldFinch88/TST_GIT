@@ -1,0 +1,53 @@
+# ascii dump of database
+
+# DpType
+TypeName
+m_KLTN_Load_Grohot_DELETE.m_KLTN_Load_Grohot_DELETE	1#1
+	Pos	25#2
+	Alarm	1#3
+		Alarm_General	23#6
+	State	1#7
+		State	21#8
+		On_raw	23#13
+		Off_raw	23#14
+		Start_raw	23#15
+		Stop_raw	23#16
+		Loaded_raw	23#17
+		Unreadiness_raw	23#197
+	Mode	1#181
+		Mode	21#187
+		Local_raw	23#188
+		Distance_raw	23#189
+		Auto_raw	23#190
+		DistanceUB_raw	23#191
+	Fullness	1#192
+		Fullness_raw	22#195
+		Fullness	22#196
+	Time	1#198
+		Time_raw	54#199
+		Time	54#200
+
+# Datapoint/DpId
+DpName	TypeName	ID
+_mp_m_KLTN_Load_Grohot_DELETE	m_KLTN_Load_Grohot_DELETE	1036
+
+# CNS
+CNSpath	name	displaySeparators	displayNames	data	CNSDataIdentifierType	UserData	ViewId
+			lt:1 LANG:10027 "АСОДУ"				
+	"KLTN"	lt:1 LANG:10027 "."	lt:1 LANG:10027 "Калтанский угольный разрез"				1
+".KLTN:"	"CLRCP"		lt:1 LANG:10027 "Углеприем"		1		
+".KLTN:CLRCP"	"SC_20_1"		lt:1 LANG:10027 "Грохот поз 20/1"		1	"4F413A4F504300041F0000804F413A49434F4E00060000"	
+".KLTN:CLRCP.SC_20_1"	"Mode"		lt:1 LANG:10027 "Режим"	720896 0:0.0	2		
+".KLTN:CLRCP.SC_20_1"	"State"		lt:1 LANG:10027 "Состояние"	720896 0:0.0	2		
+	"View1"	lt:1 LANG:10027 "."	lt:1 LANG:10027 "55555566666"				3
+	"View2"	lt:1 LANG:10027 "."	lt:1 LANG:10027 "Astra2"				2
+".View2:"	"Node1"		lt:1 LANG:10027 "Новый узел 1"	720896 	2		
+	"View3"	lt:1 LANG:10027 "."	lt:1 LANG:10027 "Новое представление 3"				4
+".View3:"	"Node1"		lt:1 LANG:10027 "Новый узел 1"		1		
+".View3:Node1"	"Node1"		lt:1 LANG:10027 "Новый узел 1"		1		
+".View3:Node1.Node1"	"Node1"		lt:1 LANG:10027 "Новый узел 1"		1		
+# ascii dump of database
+
+# Datapoint/DpId
+DpName	TypeName	ID
+_dt_m_KLTN_Load_Grohot_DELETE	_DynamicDatapoints	1037
